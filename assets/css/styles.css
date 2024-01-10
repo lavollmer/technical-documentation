@@ -16,25 +16,28 @@ title {
 .main-section {
   box-sizing: border-box;
   margin: 5px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  margin-left: 200px;
 }
 
 nav#navbar {
   height: 100%;
   width: 200px;
-  /* position: fixed; */
+  position: fixed;
+  float: left;
   z-index: 1;
   top: 0px;
   left: 0px;
-  padding-top: 20px;
-  display: block;
+  /* padding-top: 20px; */
+  /* display: flex;
+  flex-direction: column; */
   margin: 10px;
 }
 
 nav#navbar a {
   padding: 10px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 20px;
   display: block;
 }
