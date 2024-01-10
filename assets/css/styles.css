@@ -17,18 +17,19 @@ title {
   box-sizing: border-box;
   margin: 5px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 nav#navbar {
   height: 100%;
   width: 200px;
-  position: fixed;
+  /* position: fixed; */
   z-index: 1;
   top: 0px;
   left: 0px;
   padding-top: 20px;
   display: block;
+  margin: 10px;
 }
 
 nav#navbar a {
@@ -36,8 +37,4 @@ nav#navbar a {
   text-decoration: none;
   font-size: 10px;
   display: block;
-}
-
-@media only screen and (max-width: 600px) {
-  /* Styles for screens with a maximum width of 600px */
 }
