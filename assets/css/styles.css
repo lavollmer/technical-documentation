@@ -3,7 +3,7 @@
   margin: 5px;
 }
 
-#navbar {
+nav#navbar {
   height: 100%;
   width: 200px;
   position: fixed;
@@ -11,6 +11,13 @@
   top: 0px;
   left: 0px;
   padding-top: 20px;
+}
+
+nav#navbar a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 10px;
+  display: block;
 }
 
 @media only screen and (max-width: 600px) {
