@@ -1,6 +1,23 @@
+* {
+  display: flex;
+  flex-direction: column;
+}
+
+title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 10px;
+  font-weight: bold;
+}
+
 .main-section {
   box-sizing: border-box;
   margin: 5px;
+  display: flex;
+  flex-direction: row;
 }
 
 nav#navbar {
@@ -11,6 +28,7 @@ nav#navbar {
   top: 0px;
   left: 0px;
   padding-top: 20px;
+  display: block;
 }
 
 nav#navbar a {
