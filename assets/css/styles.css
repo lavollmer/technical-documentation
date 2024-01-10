@@ -3,6 +3,16 @@
   margin: 5px;
 }
 
+#navbar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   /* Styles for screens with a maximum width of 600px */
 }
