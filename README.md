@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The technical documentation project is to focus on HTML, CSS and webpage development. The content of the project revolves around Javascript programming language. The project includes a navigation bar in HTML, CSS styling, a code section. A challenging section of the project was having the navigation bar fixed position on the left side of the page while scrolling.This was achieved by CSS styling.
+The technical documentation project is to focus on HTML, CSS and webpage development. The content of the project revolves around Javascript programming language. The project includes a navigation bar in HTML, CSS styling, a code section. A challenging section of the project was having the navigation bar fixed position on the left side of the page while scrolling and was achieved through CSS styling. Additionally, the links in the navigation bar were more challenging as the href needed to fit the id of the section in order for it transfer to that section on the page.
 
 ## Table of Contents
 
