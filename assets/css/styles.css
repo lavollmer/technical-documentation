@@ -1,0 +1,8 @@
+.main-section {
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600px */
+}
